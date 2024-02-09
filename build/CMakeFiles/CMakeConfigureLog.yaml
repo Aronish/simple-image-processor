@@ -229,3 +229,74 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/dev/libraries/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/dev/libraries/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/dev/libraries/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "lib/pybind11/tools/pybind11Common.cmake:283 (check_cxx_compiler_flag)"
+      - "lib/pybind11/tools/pybind11Common.cmake:350 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "lib/pybind11/tools/pybind11Common.cmake:395 (_pybind11_generate_lto)"
+      - "lib/pybind11/CMakeLists.txt:237 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-raakrq"
+      binary: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-raakrq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-raakrq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6bf19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 09-02-2024 23:38:47.
+        
+        Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\cmTC_6bf19.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6bf19.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\Debug\\".
+          Creating directory "cmTC_6bf19.dir\\Debug\\cmTC_6bf19.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6bf19.dir\\Debug\\cmTC_6bf19.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6bf19.dir\\Debug\\cmTC_6bf19.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6bf19.dir\\Debug\\\\" /Fd"cmTC_6bf19.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6bf19.dir\\Debug\\\\" /Fd"cmTC_6bf19.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\Debug\\cmTC_6bf19.exe" /INCREMENTAL /ILK:"cmTC_6bf19.dir\\Debug\\cmTC_6bf19.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-raakrq/Debug/cmTC_6bf19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-raakrq/Debug/cmTC_6bf19.lib" /MACHINE:X64  /machine:x64 cmTC_6bf19.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\cmTC_6bf19.vcxproj]
+          Generating code
+          Finished generating code
+          cmTC_6bf19.vcxproj -> C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\Debug\\cmTC_6bf19.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6bf19.dir\\Debug\\cmTC_6bf19.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6bf19.dir\\Debug\\cmTC_6bf19.tlog\\cmTC_6bf19.lastbuildstate".
+        Done Building Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\cmTC_6bf19.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\cmTC_6bf19.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-raakrq\\cmTC_6bf19.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.79
+        
+      exitCode: 0
+...

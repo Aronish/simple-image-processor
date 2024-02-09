@@ -1,7 +1,6 @@
-#include <cstdio>
+#include <pybind11/pybind11.h>
 
-int main()
+int add(int a, int b)
 {
-    std::printf("Hello World and VTT!");
-    return 0;
+    return a + b;
 }

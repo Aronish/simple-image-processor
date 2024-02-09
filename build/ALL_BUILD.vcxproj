@@ -176,6 +176,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\dev\vtt\gaussian_blur\build\gaussian_blur.vcxproj">
       <Project>{7D3D0356-A70D-3E79-BEB3-0EC813FF6482}</Project>
       <Name>gaussian_blur</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
