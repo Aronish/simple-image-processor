@@ -18,7 +18,7 @@
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.exe
 
 //No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
@@ -26,37 +26,37 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3 /GR /EHsc
+CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /EHsc
 
 //Flags used by the CXX compiler during DEBUG builds.
-CMAKE_CXX_FLAGS_DEBUG:STRING=/MDd /Zi /Ob0 /Od /RTC1
+CMAKE_CXX_FLAGS_DEBUG:STRING=/Ob0 /Od /RTC1
 
 //Flags used by the CXX compiler during MINSIZEREL builds.
-CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/O1 /Ob1 /DNDEBUG
 
 //Flags used by the CXX compiler during RELEASE builds.
-CMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE:STRING=/O2 /Ob2 /DNDEBUG
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
-CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3
+CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS
 
 //Flags used by the C compiler during DEBUG builds.
-CMAKE_C_FLAGS_DEBUG:STRING=/MDd /Zi /Ob0 /Od /RTC1
+CMAKE_C_FLAGS_DEBUG:STRING=/Ob0 /Od /RTC1
 
 //Flags used by the C compiler during MINSIZEREL builds.
-CMAKE_C_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_MINSIZEREL:STRING=/O1 /Ob1 /DNDEBUG
 
 //Flags used by the C compiler during RELEASE builds.
-CMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
+CMAKE_C_FLAGS_RELEASE:STRING=/O2 /Ob2 /DNDEBUG
 
 //Flags used by the C compiler during RELWITHDEBINFO builds.
-CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C applications.
 CMAKE_C_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -169,16 +169,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=gaussian_blur
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=2.12.0
+CMAKE_PROJECT_VERSION:STATIC=2.11.1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=12
+CMAKE_PROJECT_VERSION_MINOR:STATIC=11
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -267,20 +267,21 @@ PYBIND11_INTERNALS_VERSION:STRING=
 //Disable search for Python
 PYBIND11_NOPYTHON:BOOL=OFF
 
+//Overwrite cached values read from Python library (classic search).
+// Turn off if cross-compiling and manually setting these values.
+PYBIND11_PYTHONLIBS_OVERWRITE:BOOL=ON
+
+//Python version to use for compiling modules
+PYBIND11_PYTHON_VERSION:STRING=
+
 //Use simpler GIL management logic that does not support disassociation
 PYBIND11_SIMPLE_GIL_MANAGEMENT:BOOL=OFF
 
 //Build pybind11 test suite?
 PYBIND11_TEST:BOOL=OFF
 
-//Python Interpreter
-Python_EXECUTABLE:FILEPATH=C:/Program Files/Python310/python.exe
-
-//Python Include Directory
-Python_INCLUDE_DIR:FILEPATH=C:/Program Files/Python310/include
-
-//Python Library
-Python_LIBRARY:FILEPATH=C:/Program Files/Python310/libs/python310.lib
+//Path to a program.
+PYTHON_EXECUTABLE:FILEPATH=C:/Users/arons/AppData/Local/Programs/Python/Python312/python.exe
 
 //Value Computed by CMake
 gaussian_blur_BINARY_DIR:STATIC=C:/dev/vtt/gaussian_blur/build
@@ -463,48 +464,31 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Program Files/Python310/python.exe][C:/Program Files/Python310/libs/python310.lib][C:/Program Files/Python310/include][cfound components: Interpreter Development.Module Development.Embed ][v3.10.4(3.6)]
+//Details about finding PYTHON
+FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=C:/Users/arons/AppData/Local/Programs/Python/Python312/python.exe3.12.2
+//Details about finding PythonInterp
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/arons/AppData/Local/Programs/Python/Python312/python.exe][v3.12.2(3.6)]
 //Test HAS_MSVC_GL_LTCG
 HAS_MSVC_GL_LTCG:INTERNAL=1
 PYBIND11_INCLUDE_DIR:INTERNAL=C:/dev/vtt/gaussian_blur/lib/pybind11/include
-//Python executable during the last CMake run
-PYBIND11_PYTHON_EXECUTABLE_LAST:INTERNAL=C:/Program Files/Python310/python.exe
-//Python debug status
+//ADVANCED property for variable: PYTHON_EXECUTABLE
+PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
+PYTHON_INCLUDE_DIRS:INTERNAL=C:/Users/arons/AppData/Local/Programs/Python/Python312/Include
 PYTHON_IS_DEBUG:INTERNAL=0
-PYTHON_MODULE_DEBUG_POSTFIX:INTERNAL=
-PYTHON_MODULE_EXTENSION:INTERNAL=.cp310-win_amd64.pyd
-Python_VERSION:INTERNAL=3.10.4
-Python_VERSION_MAJOR:INTERNAL=3
-Python_VERSION_MINOR:INTERNAL=10
-Python_VERSION_PATCH:INTERNAL=4
+PYTHON_LIBRARIES:INTERNAL=C:/Users/arons/AppData/Local/Programs/Python/Python312/libs/python312.lib
+PYTHON_MODULE_EXTENSION:INTERNAL=.cp312-win_amd64.pyd
+PYTHON_MODULE_PREFIX:INTERNAL=
+PYTHON_VERSION:INTERNAL=3.12.2
+PYTHON_VERSION_MAJOR:INTERNAL=3
+PYTHON_VERSION_MINOR:INTERNAL=12
+Python_ADDITIONAL_VERSIONS:INTERNAL=3.11;3.10;3.9;3.8;3.7;3.6
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files/gaussian_blur
-_Python:INTERNAL=Python
-//Compiler reason failure
-_Python_Compiler_REASON_FAILURE:INTERNAL=
-_Python_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=1f79f2c61daba7f540d6c4bfffe28731
-_Python_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=1f79f2c61daba7f540d6c4bfffe28731
-//Development reason failure
-_Python_Development_REASON_FAILURE:INTERNAL=
-_Python_EXECUTABLE:INTERNAL=C:/Program Files/Python310/python.exe
-_Python_INCLUDE_DIR:INTERNAL=C:/Program Files/Python310/include
-//Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;4;64;;cp310-win_amd64;;C:\Program Files\Python310\Lib;C:\Program Files\Python310\Lib;C:\Program Files\Python310\Lib\site-packages;C:\Program Files\Python310\Lib\site-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=1da2440af432494798ced9cb3a1e41e7
-//Interpreter reason failure
-_Python_Interpreter_REASON_FAILURE:INTERNAL=
-//Path to a library.
-_Python_LIBRARY_DEBUG:INTERNAL=_Python_LIBRARY_DEBUG-NOTFOUND
-_Python_LIBRARY_RELEASE:INTERNAL=C:/Program Files/Python310/libs/python310.lib
-//NumPy reason failure
-_Python_NumPy_REASON_FAILURE:INTERNAL=
-//Path to a library.
-_Python_RUNTIME_LIBRARY_RELEASE:INTERNAL=C:/Program Files/Python310/python310.dll
+_Python:INTERNAL=PYTHON
 //True if pybind11 and all required components found on the system
 pybind11_FOUND:INTERNAL=TRUE
 //Directory where pybind11 headers are located
 pybind11_INCLUDE_DIR:INTERNAL=C:/dev/vtt/gaussian_blur/lib/pybind11/include
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=C:/dev/vtt/gaussian_blur/lib/pybind11/include;C:/Program Files/Python310/include
+pybind11_INCLUDE_DIRS:INTERNAL=C:/dev/vtt/gaussian_blur/lib/pybind11/include;C:/Users/arons/AppData/Local/Programs/Python/Python312/Include
 
