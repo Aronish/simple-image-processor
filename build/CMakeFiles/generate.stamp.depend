@@ -18,8 +18,8 @@ C:/dev/libraries/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/W
 C:/dev/libraries/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
 C:/dev/libraries/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows.cmake
 C:/dev/libraries/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
-C:/dev/vtt/gaussian_blur/CMakeLists.txt
-C:/dev/vtt/gaussian_blur/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake
-C:/dev/vtt/gaussian_blur/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
-C:/dev/vtt/gaussian_blur/build/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
-C:/dev/vtt/gaussian_blur/build/CMakeFiles/3.28.3/CMakeSystem.cmake
+C:/dev/vtt/image_processor/CMakeLists.txt
+C:/dev/vtt/image_processor/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake
+C:/dev/vtt/image_processor/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+C:/dev/vtt/image_processor/build/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
+C:/dev/vtt/image_processor/build/CMakeFiles/3.28.3/CMakeSystem.cmake
