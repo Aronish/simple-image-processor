@@ -173,9 +173,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\dev\vtt\gaussian_blur\build\gaussian_blur.vcxproj">
-      <Project>{7D3D0356-A70D-3E79-BEB3-0EC813FF6482}</Project>
-      <Name>gaussian_blur</Name>
+    <ProjectReference Include="C:\dev\vtt\gaussian_blur\build\convertible_image.vcxproj">
+      <Project>{D2A89FCE-D077-3459-A31C-EB7F25B6D5AF}</Project>
+      <Name>convertible_image</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

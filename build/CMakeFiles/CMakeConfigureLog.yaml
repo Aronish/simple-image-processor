@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.8.5+b5265ef37 for .NET Framework
-      Build started 10-02-2024 11:56:54.
+      Build started 11-02-2024 18:01:09.
       
       Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.92
+      Time Elapsed 00:00:01.74
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.8.5+b5265ef37 for .NET Framework
-      Build started 10-02-2024 11:56:57.
+      Build started 11-02-2024 18:01:11.
       
       Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.68
+      Time Elapsed 00:00:01.70
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-aejepv"
-      binary: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-aejepv"
+      source: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ej2jd6"
+      binary: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ej2jd6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-aejepv'
+        Change Dir: 'C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ej2jd6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c48ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_85992.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 10-02-2024 11:56:59.
+        Build started 11-02-2024 18:01:14.
         
-        Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aejepv\\cmTC_c48ce.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej2jd6\\cmTC_85992.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c48ce.dir\\Debug\\".
+          Creating directory "cmTC_85992.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aejepv\\Debug\\".
-          Creating directory "cmTC_c48ce.dir\\Debug\\cmTC_c48ce.tlog\\".
+          Creating directory "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej2jd6\\Debug\\".
+          Creating directory "cmTC_85992.dir\\Debug\\cmTC_85992.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c48ce.dir\\Debug\\cmTC_c48ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c48ce.dir\\Debug\\cmTC_c48ce.tlog\\unsuccessfulbuild".
+          Creating "cmTC_85992.dir\\Debug\\cmTC_85992.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_85992.dir\\Debug\\cmTC_85992.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c48ce.dir\\Debug\\\\" /Fd"cmTC_c48ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85992.dir\\Debug\\\\" /Fd"cmTC_85992.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c48ce.dir\\Debug\\\\" /Fd"cmTC_c48ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85992.dir\\Debug\\\\" /Fd"cmTC_85992.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aejepv\\Debug\\cmTC_c48ce.exe" /INCREMENTAL /ILK:"cmTC_c48ce.dir\\Debug\\cmTC_c48ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-aejepv/Debug/cmTC_c48ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-aejepv/Debug/cmTC_c48ce.lib" /MACHINE:X64  /machine:x64 cmTC_c48ce.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_c48ce.vcxproj -> C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aejepv\\Debug\\cmTC_c48ce.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej2jd6\\Debug\\cmTC_85992.exe" /INCREMENTAL /ILK:"cmTC_85992.dir\\Debug\\cmTC_85992.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ej2jd6/Debug/cmTC_85992.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ej2jd6/Debug/cmTC_85992.lib" /MACHINE:X64  /machine:x64 cmTC_85992.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_85992.vcxproj -> C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej2jd6\\Debug\\cmTC_85992.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c48ce.dir\\Debug\\cmTC_c48ce.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c48ce.dir\\Debug\\cmTC_c48ce.tlog\\cmTC_c48ce.lastbuildstate".
-        Done Building Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aejepv\\cmTC_c48ce.vcxproj" (default targets).
+          Deleting file "cmTC_85992.dir\\Debug\\cmTC_85992.tlog\\unsuccessfulbuild".
+          Touching "cmTC_85992.dir\\Debug\\cmTC_85992.tlog\\cmTC_85992.lastbuildstate".
+        Done Building Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej2jd6\\cmTC_85992.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.59
+        Time Elapsed 00:00:01.69
         
       exitCode: 0
   -
@@ -182,8 +182,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-sy9wv8"
-      binary: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-sy9wv8"
+      source: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-44700k"
+      binary: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-44700k"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -192,40 +192,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-sy9wv8'
+        Change Dir: 'C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-44700k'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97609.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e2db7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 10-02-2024 11:57:02.
+        Build started 11-02-2024 18:01:16.
         
-        Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sy9wv8\\cmTC_97609.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-44700k\\cmTC_e2db7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_97609.dir\\Debug\\".
+          Creating directory "cmTC_e2db7.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sy9wv8\\Debug\\".
-          Creating directory "cmTC_97609.dir\\Debug\\cmTC_97609.tlog\\".
+          Creating directory "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-44700k\\Debug\\".
+          Creating directory "cmTC_e2db7.dir\\Debug\\cmTC_e2db7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_97609.dir\\Debug\\cmTC_97609.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_97609.dir\\Debug\\cmTC_97609.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e2db7.dir\\Debug\\cmTC_e2db7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e2db7.dir\\Debug\\cmTC_e2db7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97609.dir\\Debug\\\\" /Fd"cmTC_97609.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2db7.dir\\Debug\\\\" /Fd"cmTC_e2db7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97609.dir\\Debug\\\\" /Fd"cmTC_97609.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2db7.dir\\Debug\\\\" /Fd"cmTC_e2db7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\libraries\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sy9wv8\\Debug\\cmTC_97609.exe" /INCREMENTAL /ILK:"cmTC_97609.dir\\Debug\\cmTC_97609.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-sy9wv8/Debug/cmTC_97609.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-sy9wv8/Debug/cmTC_97609.lib" /MACHINE:X64  /machine:x64 cmTC_97609.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_97609.vcxproj -> C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sy9wv8\\Debug\\cmTC_97609.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-44700k\\Debug\\cmTC_e2db7.exe" /INCREMENTAL /ILK:"cmTC_e2db7.dir\\Debug\\cmTC_e2db7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-44700k/Debug/cmTC_e2db7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-44700k/Debug/cmTC_e2db7.lib" /MACHINE:X64  /machine:x64 cmTC_e2db7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e2db7.vcxproj -> C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-44700k\\Debug\\cmTC_e2db7.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_97609.dir\\Debug\\cmTC_97609.tlog\\unsuccessfulbuild".
-          Touching "cmTC_97609.dir\\Debug\\cmTC_97609.tlog\\cmTC_97609.lastbuildstate".
-        Done Building Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sy9wv8\\cmTC_97609.vcxproj" (default targets).
+          Deleting file "cmTC_e2db7.dir\\Debug\\cmTC_e2db7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e2db7.dir\\Debug\\cmTC_e2db7.tlog\\cmTC_e2db7.lastbuildstate".
+        Done Building Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-44700k\\cmTC_e2db7.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.59
+        Time Elapsed 00:00:01.65
         
       exitCode: 0
   -
@@ -241,8 +241,8 @@ events:
     checks:
       - "Performing Test HAS_MSVC_GL_LTCG"
     directories:
-      source: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-bstyf0"
-      binary: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-bstyf0"
+      source: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ziir87"
+      binary: "C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ziir87"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -252,48 +252,48 @@ events:
       variable: "HAS_MSVC_GL_LTCG"
       cached: true
       stdout: |
-        Change Dir: 'C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-bstyf0'
+        Change Dir: 'C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ziir87'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ae71a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ba2c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 10-02-2024 11:57:04.
+        Build started 11-02-2024 18:01:18.
         
-        Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\cmTC_ae71a.vcxproj" on node 1 (default targets).
+        Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\cmTC_ba2c4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ae71a.dir\\Debug\\".
+          Creating directory "cmTC_ba2c4.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\Debug\\".
-          Creating directory "cmTC_ae71a.dir\\Debug\\cmTC_ae71a.tlog\\".
+          Creating directory "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\Debug\\".
+          Creating directory "cmTC_ba2c4.dir\\Debug\\cmTC_ba2c4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ae71a.dir\\Debug\\cmTC_ae71a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ae71a.dir\\Debug\\cmTC_ae71a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ba2c4.dir\\Debug\\cmTC_ba2c4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ba2c4.dir\\Debug\\cmTC_ba2c4.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae71a.dir\\Debug\\\\" /Fd"cmTC_ae71a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_ba2c4.dir\\Debug\\\\" /Fd"cmTC_ba2c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae71a.dir\\Debug\\\\" /Fd"cmTC_ae71a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_ba2c4.dir\\Debug\\\\" /Fd"cmTC_ba2c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\Debug\\cmTC_ae71a.exe" /INCREMENTAL /ILK:"cmTC_ae71a.dir\\Debug\\cmTC_ae71a.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-bstyf0/Debug/cmTC_ae71a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-bstyf0/Debug/cmTC_ae71a.lib" /MACHINE:X64  /machine:x64 cmTC_ae71a.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\cmTC_ae71a.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\Debug\\cmTC_ba2c4.exe" /INCREMENTAL /ILK:"cmTC_ba2c4.dir\\Debug\\cmTC_ba2c4.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ziir87/Debug/cmTC_ba2c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/vtt/gaussian_blur/build/CMakeFiles/CMakeScratch/TryCompile-ziir87/Debug/cmTC_ba2c4.lib" /MACHINE:X64  /machine:x64 cmTC_ba2c4.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\cmTC_ba2c4.vcxproj]
           Generating code
           Finished generating code
-          cmTC_ae71a.vcxproj -> C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\Debug\\cmTC_ae71a.exe
+          cmTC_ba2c4.vcxproj -> C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\Debug\\cmTC_ba2c4.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ae71a.dir\\Debug\\cmTC_ae71a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ae71a.dir\\Debug\\cmTC_ae71a.tlog\\cmTC_ae71a.lastbuildstate".
-        Done Building Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\cmTC_ae71a.vcxproj" (default targets).
+          Deleting file "cmTC_ba2c4.dir\\Debug\\cmTC_ba2c4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ba2c4.dir\\Debug\\cmTC_ba2c4.tlog\\cmTC_ba2c4.lastbuildstate".
+        Done Building Project "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\cmTC_ba2c4.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\cmTC_ae71a.vcxproj" (default target) (1) ->
+        "C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\cmTC_ba2c4.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bstyf0\\cmTC_ae71a.vcxproj]
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\dev\\vtt\\gaussian_blur\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ziir87\\cmTC_ba2c4.vcxproj]
         
             1 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.64
+        Time Elapsed 00:00:01.71
         
       exitCode: 0
 ...
