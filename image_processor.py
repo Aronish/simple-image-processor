@@ -1,7 +1,6 @@
-from convertible_image import *
+from image_processor import *
 from PIL import ImageTk, Image as PImage
 import tkinter
-import sys
 
 class Viewer:
     def __init__(self, window_size, image_path) -> None:

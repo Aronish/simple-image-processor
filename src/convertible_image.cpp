@@ -100,7 +100,7 @@ std::vector<uint8_t> ConvertibleImage::applyKernel(ConvertibleImage::KernelType 
 }
 
 // Python Bindings ////////////////
-PYBIND11_MODULE(convertible_image, mod)
+PYBIND11_MODULE(image_processor, mod)
 {
     pybind11::class_<ConvertibleImage>(mod, "ConvertibleImage")
         .def(pybind11::init<int, int, std::vector<uint8_t>>())
