@@ -1,4 +1,4 @@
-from image_processor import *
+from image_processor import * # C++ library with bindings
 from PIL import ImageTk, Image as PImage
 import tkinter
 
