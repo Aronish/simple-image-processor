@@ -1,4 +1,0 @@
-C:/dev/vtt/image_processor/build/CMakeFiles/image_processor.dir
-C:/dev/vtt/image_processor/build/CMakeFiles/ALL_BUILD.dir
-C:/dev/vtt/image_processor/build/CMakeFiles/ZERO_CHECK.dir
-C:/dev/vtt/image_processor/build/lib/pybind11/CMakeFiles/ALL_BUILD.dir
