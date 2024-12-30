@@ -1,11 +1,13 @@
 #include <array>
+#include <algorithm>
+#include <cmath>
 #include <span>
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
 #include "convertible_image.h"
-// Some of these yield weird results, but that doesn't really matter :D
+
 std::array<float, 9> static identity_kernel = 
 {
     0.0, 0.0, 0.0,
@@ -79,9 +81,9 @@ std::vector<uint8_t> ConvertibleImage::applyKernel(ConvertibleImage::KernelType 
 
     for (int byte_index = 0; byte_index < bytes_.size(); ++byte_index)
     {
-        int y = byte_index / width_; // Save a loop by calculating pixel coordinates from 1D instead
+        int y = byte_index / width_; // Avoid clutter by calculating pixel coordinates from 1D instead
         int x = byte_index % width_;
-        std::vector<uint8_t> result_pixel_values(channels); // Intermediate pixel sum
+        std::vector<float> result_pixel_values(channels); // Intermediate pixel sum
 
         for (int i = 0; i < kernel.size(); ++i) // For every pixel, calculate average weighted by kernel
         {
@@ -90,11 +92,14 @@ std::vector<uint8_t> ConvertibleImage::applyKernel(ConvertibleImage::KernelType 
             if (x + offset_x < 0 || x + offset_x > width_ - 1 || y + offset_y < 0 || y + offset_y > height_ - 1) continue; // Remove out-of-bounds offsets (wrap-around possible as well)
             for (int channel = 0; channel < channels; ++channel)
             {
-                uint8_t pixel_value = bytes_.at(channels * width_ * (y + offset_y) + channels * (x + offset_x) + channel); // Extract color channel
-                result_pixel_values[channel] += static_cast<uint8_t>(pixel_value * kernel[i]); // Apply kernel weight and sum
+                float pixel_value = static_cast<float>(bytes_.at(channels * width_ * (y + offset_y) + channels * (x + offset_x) + channel)); // Extract color channel
+                result_pixel_values[channel] += pixel_value * kernel[i]; // Apply kernel weight and sum
             }
         }
-        result.insert(std::end(result), std::begin(result_pixel_values), std::end(result_pixel_values)); // Store the new pixel
+        for (float pixel : result_pixel_values)
+        {
+            result.emplace_back(static_cast<uint8_t>(std::clamp(std::round(pixel), 0.0f, 255.0f))); // Store final pixel after removing extreme values
+        }
     }
     return result;
 }
